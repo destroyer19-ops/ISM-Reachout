@@ -40,7 +40,7 @@ const Home = () => {
   // }, []);
 
   return (
-    <div className='relative bg-white w-full h-full'>
+    <div className='w-full h-screen hero-bg'>
       {/* Fixed Background Image in the middle */}
       {/* <img
   src={image}

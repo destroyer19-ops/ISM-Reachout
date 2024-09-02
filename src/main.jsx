@@ -5,10 +5,10 @@ import './index.css'
 import Home from './pages/Home.jsx'
 import {createBrowserRouter, RouterProvider, } from 'react-router-dom'
 import Campaign from './pages/Campaign.jsx'
-import Footer from './components/Footer.jsx'
 import TeevoCampaign from './pages/TeevoCampaign.jsx'
 import CampaignDescr from './pages/CampaignDescr.jsx'
 import LeftBehindCampaign from './pages/LeftBehindCampaign.jsx'
+import HomePage from './pages/HomePage.jsx'
 
 const router = createBrowserRouter([
   {
@@ -17,7 +17,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Home/>
+        element: <HomePage/>
       },
       {
         path: '/campaigns',
